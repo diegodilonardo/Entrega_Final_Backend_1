@@ -1,7 +1,31 @@
 {
-  "dependencies": {
-    "express": "^4.21.2",
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./src/app.js",
+  "scripts": {
+    "dev": "node ./src/app.js",
+    "dev:watch": "node --watch ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegodilonardo/Entrega_Final_Backend_1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+   },
+    "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
     "mongoose": "^8.9.5",
-    "nodemon": "^3.1.9"
+    "mongoose-paginate-v2": "^1.8.2",
+    "multer": "^1.4.5-lts.1",
+    "socket.io": "^4.7.5",
+    "uuid": "9.0.1"
   }
 }
